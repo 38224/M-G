@@ -66,6 +66,7 @@ function Menu_FindMenu(item) {
     }
     return null;
 }
+
 function Menu_FindNext(item) {
     var a = WebForm_GetElementByTagName(item, "A");
     var parent = Menu_FindParentContainer(item);
